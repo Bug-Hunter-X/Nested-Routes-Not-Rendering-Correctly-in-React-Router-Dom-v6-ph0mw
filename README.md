@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router Dom v6 where nested routes are not rendering correctly. The catch-all route (`/*`) is always matched, even when a nested route should be matched.  The solution demonstrates a fix using the `useLocation` hook to accurately detect the current route.
